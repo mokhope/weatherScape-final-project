@@ -84,7 +84,6 @@ function formatDate(date) {
   
   let searchForm = document.querySelector("#search-form");
   searchForm.addEventListener("submit", handleSearchSubmit);
-  
-  // Default city
+
   searchCity("Pretoria");
   
